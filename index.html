@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>01.Application Form</h1>
+    <form>
+        <p>
+            <label for="yname">Name:</label>
+            <input type="text" name="yname" id="yname" placeholder="Enter your name" required>
+        </p>
+        <p>
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="mail" placeholder="Enter your email">
+        </p>
+        <p>
+            <label >Gender:</label>
+            <input type="radio" name="gender" id="mmale" required>
+            <label for="mmale">Male</label>
+            <input type="radio" name="gender" id="ffemale" required>
+            <label for="ffemale">Female</label>
+        </p>
+        <p>
+            <label>CHOOSE SKILLS</label><br>
+            <br>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="skill" id="html" >
+            <label for="css">CSS</label>
+            <input type="checkbox" name="skill" id="css">
+            <label for="js">JS</label>
+            <input type="checkbox" name="skill" id="js">
+            <label for="bootstrap">BOOTSTRAP</label>
+            <input type="checkbox" name="skill" id="bootstrap">
+            <label for="react">REACT</label>
+            <input type="checkbox" name="skill" id="react">
+        </p>
+        <p>
+            <label>JOB TYPE</label>
+            <select>
+                <option value="frontend" selected>FRONT END DEVELOPER</option>
+                <option>BACKEND DEVELOPER</option>
+                <option>DEVOPS</option>
+                <option>CYBERSECURITY</option>
+            </select>
+        </p>
+        <p>
+            Choose your browser from the list:
+            <input type="text">
+        </p>
+        
+            <p>
+                <textarea cols="20" rows="5">Give a brief summary about you</textarea>
+            </p>
+        
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
